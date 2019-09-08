@@ -34,15 +34,15 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color: #20282e !important;
+$base-color-hover: darken(32, 40, 46, 10%);
 
 // Define background colors
 $background: #fff;
-$background-alt: #f2f2f5;
+$background-alt: #20282e;
 
 // Define border colors
-$border: #dcd9d9;
+$border: #20282e;
 
 // Define text colors
 $heading: #374054;
@@ -393,7 +393,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+    background: rgba(32, 40, 46, 0.8) !important ;
     z-index: 1;
 }
 
