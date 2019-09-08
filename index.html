@@ -51,7 +51,7 @@
             <img src="Hiral.jpeg" height="300px" alt="Italian Trulli">
             <h1>Hiral Nagda</h1>
             <h2>Software Engineer</h2>
-            <a href="Resume_Hiral_Nagda.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="docs/Resume_Hiral_Nagda.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -86,26 +86,74 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2015 – September 2016">
+            <div data-date="May 2019 – August 2019">
                 <h3>ADP LLC</h3>
                 <h4>DevOps/SRE Intern</h4>
-                <p>
-                    <ul>
-                <li>Created a central – system reliability dashboard – that integrates all health check reports, self-serve utilities and automation frameworks using Python, HTML/CSS, JavaScript frameworks and shell.</li>
+                <b>I identified the challenges faced by the team. There were many tasks which were manually carried out by engineers and consumed large amount of their time.
+                    I added value to the team by developing and designing following utilities: </b> <br>
+                <h4>1. WFN System Reliability Dashboard</h4>
+                <ul>
+                    <li>Used HTML, CSS and JavaScript to create Site Reliability Dashboard.</li>
+                    <li>All the reports and self serve utilities are placed at once place in a categorical manner.</li>
+                    <li>The user just needs to select the service required for the required environment and hit the view
+                        button and they will be directed to the service.</li>
+                </ul>
+                <h4>2. GETS CMDB Products Tag Viewer</h4>
+                <ul>
+                    <li>First implemented the program in python to get familiarized with CMDB API to create static
+                        GETS CMDB Product Tag Report using requests library.</li>
+                    <li>For the final product: technologies used are HTML, CSS, JavaScript, AJAX and jQuery (Datatable)</li>
+                    <li> Asynchronous AJAX calls are made to CMDB API to get the number of hosts for each tag.</li>
+                </ul>
+                <h4>3. ServiceDesk – Incidents from Yesterday</h4>
+                <ul>
+                    <li>Technologies used: Python, Zeep (Python SOAP client), ServiceDesk Web Service API.</li>
+                <li>Three calls are made to the Service Desk API: Fist to login, one to get all the tickets and another
+                    to get assignee names from the assignee code.</li>
+                </ul>
+                <h4>4. Kafka Automation</h4>
+                <ul>
+                    <li>The project was first implemented using Fabric and Ansible Tower REST API.</li>
+                    <li>For the final implementation, automation is performed using Fabric and kafka-python REST API.</li>
+                    <li>This is a flask application that runs  with Docker using webserver Nginx.</li>
+                <li>The Docker image installs Nginx, uWSGI (Web Server Gateway Interface) and Flask with all of the
+                    necessary configuration bundled in.</li>
+                </ul>
+                <h4>5. Program to TAG hosts</h4>
+                <ul>
+                <li>The python script collects a list of hosts and tags from  text files as input.</li>
+                <li> Initially, a POST request is made to CMDB API to get an authentication header token to perform
+                    future POST calls. A GET request is made to CMDB API to get host ID from the hostname.</li>
+                <li>To tag the hosts with the required tags. A POST request is made and the token is passed in this
+                    call. In response, we get the status of the operation.</li>
+                </ul>
+                <h4>6. Server Compliance</h4>
+                <ul>
+                <li>Host data is pulled from CMDB API for parent tag 190 and corresponding tag ID for the
+                    environment.</li>
+                <li>For each report the data from CMDB API is collected in chunks of 200 hosts, in order the make the
+                program efficient.</li>
+                <li>Technologies used: CMDB API, Python, jQuery (Datatables), HTML, CSS, JavaScript and shell
+                    scripting.</li>
+                </ul>
+               <b> Our team followed AGILE methodology. I was part of 4 sprints and I made sure I completed all my
+                   user stories within the sprints. </b>
 
-                <li>Developed automation using Python & Flask API for Kafka topic management and identifying lags.</li>
-
-                <li>Designed and developed automated reports to extract and analyze data from CA Service Desk and CMDB using HTML/CSS, Python, JavaScript, SOAP APIs.</li>
-            </ul>
-                </p>
             </div>
 
             <div data-date="September 2015 – September 2016">
-                <h3>Employer Name</h3>
-                <h4>Job Title</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                </p>
+                <h3>Godrej India Culture Lab</h3>
+                <h4>Web Development Extern</h4>
+                <ul>
+                    <li>Designed and developed ‘Mumbai’s Culture Map’ which is documentation of cultural spaces in an
+                        interactive manner that allows users to reach out to and obtain a catalog of the various
+                        cultural institutions in the city</li>
+                    <li>Deployed Google Maps Layers, provisions were added that allowed users to search for spaces by
+                        categories. </li>
+                    <li>Technologies used: HTML, CSS, JavaScript, Bootstrap, Google Map Layers.</li>
+                    <a href="docs/Letter_of_Recommendation_Godrej.pdf">Letter of Recommendation</a>
+
+                </ul>
             </div>
 
             <div data-date="September 2015 – September 2016">
